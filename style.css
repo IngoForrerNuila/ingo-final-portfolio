@@ -1,0 +1,175 @@
+html{
+    background-color: #2e70b4;
+
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #2e70b4;
+
+}
+
+main{
+margin: 0%;
+padding: 0%;
+background-color: #2e70b4;
+width: 100%;
+justify-content: center;
+display: flex;
+
+}
+
+.nav-bar, ul, li{
+    background-color:#5a9cdf;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 105%;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+       
+}
+
+.nav-button{
+    
+    padding: 2%;
+    
+}
+
+.nav-button:hover{
+    color: rgb(0, 0, 0) ;
+
+}
+
+
+#myVideo {
+    object-fit: contain;
+    object-fit: cover;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    
+}
+
+.video-box{
+    background-color: #2e70b4;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+         
+}
+
+.video-box-child{
+    text-align: center;
+    
+}
+
+.nav-box-text{
+    margin: 3%;
+}
+
+.nav-box-button{
+    background-color: #5a9cdf;
+    color:white;
+    margin: 0.5rem;
+    width: auto;
+    font-weight: bolder;
+    font-size: 150%;
+ 
+}
+
+.nav-box-button:hover{
+    background-color: #ffffff;
+    color:#2e70b4;
+
+}
+
+
+.image{
+    max-width: 100%;
+    
+}
+
+.content-container{
+    max-width: 80%;
+    display: block;
+
+}
+
+.titles-container{
+    Background-color:#5a9cdf;
+
+}
+
+.titles{
+    font-size: 130%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 0.5%;
+}
+
+
+.section-container-1{
+    background-color: #2e70b4;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    height: auto;
+
+}
+
+.section-container-2{
+    background-color: #2e70b4;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: auto;
+
+}
+
+.section-child{
+
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+
+.sections-text {
+    text-align: left;
+    padding: 1rem;
+    
+}
+
+.sections-title {
+    text-align: left;
+    padding: 1rem;
+    font-size: bolder;
+    color:rgb(255, 254, 252);
+
+
+}
+
+.job-logos{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 33%;
+    padding: 0.5rem;
+
+}
+
