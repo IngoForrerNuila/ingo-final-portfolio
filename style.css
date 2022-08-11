@@ -158,12 +158,10 @@ margin-right: auto;
 
 }
 
-
-
 .sections-text {
     text-align: left;
-    padding: 1rem;
-    
+    padding-left: 1rem;
+       
 }
 
 .sections-title {
