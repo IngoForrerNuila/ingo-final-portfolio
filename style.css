@@ -20,6 +20,17 @@ display: flex;
 
 }
 
+.responsive{
+    max-width: 100%;
+}
+
+.skill-images{
+    width: 20vh;
+    padding: 1rem;
+
+
+}
+
 .nav-bar, ul, li{
     background-color:#5a9cdf;
     font-family: sans-serif;
