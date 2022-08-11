@@ -37,14 +37,14 @@ display: flex;
 .menu-button {
     text-decoration: none;
     width: 12vh;
-    height: 5vh;
+    height: 6vh;
     background-color: #e9e9e9;
     color: rgb(155, 155, 155);
     font-weight: bolder;
     font-family: Helvetica;
-    font-size: 2.0vh;
+    font-size: 2.5vh;
     border-color: #e9e9e9;
-    border-radius: 2.0vh;
+    border-radius: 3.0vh;
            
 }
 
