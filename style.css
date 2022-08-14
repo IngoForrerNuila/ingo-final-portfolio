@@ -5,8 +5,9 @@ html{
 
 body {
     
-    padding: 0%;
+    padding-bottom: 100px;
     background-color: #2e70b4;
+    
 }
 
 main{
@@ -183,6 +184,10 @@ margin-right: auto;
     padding: 0.5rem;
 
 }
+
+/* .cont-projects{
+    height: 700px;
+} */
 
 
 
