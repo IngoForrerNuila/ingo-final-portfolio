@@ -7,7 +7,6 @@ body {
     
     padding: 0%;
     background-color: #2e70b4;
-
 }
 
 main{
@@ -28,6 +27,12 @@ display: flex;
     width: 20vh;
     padding: 1rem;
 
+}
+
+.project-images{
+    width: 40vh;
+    padding: 1rem;
+ 
 }
 
 .menu{
@@ -178,4 +183,6 @@ margin-right: auto;
     padding: 0.5rem;
 
 }
+
+
 
