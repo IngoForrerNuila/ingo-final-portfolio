@@ -187,7 +187,14 @@ margin-right: auto;
 
 .img-responsive{
     max-width: 100%;
+    position: relative;
 }
+
+video {
+    /* override other styles to make responsive */
+    width: 100%    !important;
+    height: auto   !important;
+  }
 
 /* ------------>>>>CARUSEL DE IMAGENES<<<<------------ */
 
