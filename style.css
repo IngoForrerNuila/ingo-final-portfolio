@@ -263,6 +263,9 @@ video {
     .afiches{
         height: 40vh; width: 100%; padding: 1rem;
     }
+    .fotos{
+        height: 40vh; width: 100%; padding: 1rem;
+    }
 }
 
 @media screen and (max-width: 960px) {
@@ -271,6 +274,9 @@ video {
     }
     .afiches{
         height: 27vh; width: 100%; padding: 0.5rem;
+    }
+    .fotos{
+        height: 30vh; width: 100%; padding: 0.5rem;
     }
 }
 
