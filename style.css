@@ -42,7 +42,7 @@ display: flex;
 
 .menu-button {
     text-decoration: none;
-    width: 12vh;
+    /*width: 12vh;*/
     height: 6.5vh;
     background-color: #e9e9e9;
     color: rgb(155, 155, 155);
@@ -198,7 +198,7 @@ video {
 
 /* ------------>>>>CARUSEL DE IMAGENES<<<<------------ */
 
-div#page {
+/*div#page {
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -219,9 +219,9 @@ div#page {
 .carousel-inner  {
     background-color: black;
     
-}
+}*/
 
-.buttons{
+/*.buttons{
 	width: 6%;
     position: absolute;
     top: 2%;
@@ -232,20 +232,21 @@ div#page {
 	display:block;
 	margin-bottom: 3px;
 
-}
+}*/
+
 /* CSS REQUIRED */
-.state-icon {
+/*.state-icon {
     left: -5px;
 }
 .list-group-item-primary {
     color: rgb(255, 255, 255);
     background-color: rgb(66, 139, 202);
-}
+}*/
 
 /* DEMO ONLY - REMOVES UNWANTED MARGIN */
-.well .list-group {
+/*.well .list-group {
     margin-bottom: 0px;
-}
+}*/
 
 @media screen and (min-width: 768px)
 {
@@ -258,6 +259,21 @@ div#page {
 	/* #options .row:nth-child(1){
 		margin-bottom:4em;
 	} */
+    .ff-logos{
+        height: 30vh; width: 100%; padding: 1rem;
+    }
+    .afiches{
+        height: 40vh; width: 100%; padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .ff-logos{
+        height: 20vh; width: 100%; padding: 0.5rem;
+    }
+    .afiches{
+        height: 27vh; width: 100%; padding: 0.5rem;
+    }
 }
 
 
