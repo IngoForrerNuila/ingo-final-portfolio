@@ -168,12 +168,10 @@ margin-right: auto;
 }
 
 .sections-title {
-    text-align: left;
-    padding: 1rem;
+    text-align: center;
+    padding: 0.5rem;
     font-size: bolder;
     color:rgb(255, 254, 252);
-
-
 }
 
 .job-logos{
