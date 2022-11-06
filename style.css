@@ -194,58 +194,6 @@ video {
     height: auto   !important;
   }
 
-/* ------------>>>>CARUSEL DE IMAGENES<<<<------------ */
-
-/*div#page {
-    margin-left: 1em;
-    margin-right: 1em;
-}
-#options{
-	margin: 1em 1em 0em 1em;
-}
-.carousel-control.left,.carousel-control.right{
-	background:none !important;
-}
-#myCarousel img{
-	width: 100%;
-    max-width: 50%;
-    
-}
-.optionBox,#optionHead1,#optionHead2{
-	text-align:center;
-}
-.carousel-inner  {
-    background-color: black;
-    
-}*/
-
-/*.buttons{
-	width: 6%;
-    position: absolute;
-    top: 2%;
-    left: 4%;
-    z-index: 99;
-}
-.buttons button{
-	display:block;
-	margin-bottom: 3px;
-
-}*/
-
-/* CSS REQUIRED */
-/*.state-icon {
-    left: -5px;
-}
-.list-group-item-primary {
-    color: rgb(255, 255, 255);
-    background-color: rgb(66, 139, 202);
-}*/
-
-/* DEMO ONLY - REMOVES UNWANTED MARGIN */
-/*.well .list-group {
-    margin-bottom: 0px;
-}*/
-
 @media screen and (min-width: 768px)
 {
 	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
@@ -264,7 +212,7 @@ video {
         height: 40vh; width: 100%; padding: 1rem;
     }
     .fotos{
-        height: 40vh; width: 100%; padding: 1rem;
+        height: 30vh; width: 100%; padding: 1rem;
     }
 }
 
