@@ -69,7 +69,7 @@ display: flex;
 }
 
 .video-box{
-    background-color: #2e70b4;
+    background-color: #000000;
     color: white;
     font-family: sans-serif;
     font-weight: bolder;
@@ -190,22 +190,13 @@ margin-right: auto;
 
 video {
     /* override other styles to make responsive */
-    width: 100%    !important;
+    width: 70%    !important;
     height: auto   !important;
   }
 
 @media screen and (min-width: 768px)
 {
-	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
-		margin-left: -45px !important;
-	}
-	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-		margin-right: -45px !important;
-	}
-	/* #options .row:nth-child(1){
-		margin-bottom:4em;
-	} */
-    .ff-logos{
+	.ff-logos{
         height: 30vh; width: 100%; padding: 1rem;
     }
     .afiches{
@@ -214,6 +205,7 @@ video {
     .fotos{
         height: 30vh; width: 100%; padding: 1rem;
     }
+   
 }
 
 @media screen and (max-width: 960px) {
@@ -226,6 +218,12 @@ video {
     .fotos{
         height: 27vh; width: 100%; padding: 0.5rem;
     }
+    
+    video {
+        width: 100%    !important;
+        height: auto   !important;
+    }
+    
 }
 
 
