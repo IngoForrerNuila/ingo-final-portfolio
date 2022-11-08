@@ -205,7 +205,11 @@ video {
     .fotos{
         height: 30vh; width: 100%; padding: 1rem;
     }
-   
+   .chibi-video-box {
+        width: 15%    !important;
+        height: auto   !important;
+        padding: 0.5rem;
+   }
 }
 
 @media screen and (max-width: 960px) {
@@ -224,6 +228,12 @@ video {
         height: auto   !important;
     }
     
+    .chibi-video-box {
+        width: 50%    !important;
+        height: auto   !important;
+        padding: 0.5rem;
+   }
+
 }
 
 
