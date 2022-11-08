@@ -206,13 +206,13 @@ video {
         height: 30vh; width: 100%; padding: 1rem;
     }
    .chibi-video-box {
-        width: 15%    !important;
+        width: 20%    !important;
         height: auto   !important;
         padding: 0.5rem;
    }
 
    .concept-art{
-    height: 37vh; width: 100%; padding: 0.5rem;
+    height: 42vh; width: 100%; padding: 0.5rem;
    }
 
    .chibi-logo{
@@ -245,11 +245,11 @@ video {
    }
 
    .concept-art{
-    height: 25vh; width: 100%; padding: 0.5rem;
+    height: 21vh; width: 100%; padding: 0.5rem;
    }
     
    .chibi-logo{
-    height: 25vh; width: 100%; padding: 0.5rem;
+    height: 23vh; width: 100%; padding: 0.5rem;
    }
 
 }
