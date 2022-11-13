@@ -189,6 +189,30 @@ margin-right: auto;
 
 }
 
+.ff-visor{
+    max-width: 100%;
+    height: 14vw;
+    animation-duration: 1s;
+    animation-name: intensitive;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.chibi-logo{
+    animation-duration: 1s;
+    animation-name: intensitive;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+@keyframes intensitive {
+    0% {filter: saturate(0%);}
+    100% {filter: saturate(100%);}
+}
+
 .download-cv-button{
     color: rgb(155, 155, 155);
     font-weight: bolder;
@@ -233,7 +257,7 @@ video {
    }
 
    .chibi-logo{
-    height: 40vh; width: 100%; padding: 0.5rem;
+    height: 30vh; width: 100%; padding: 0.5rem;
    }
 
 
@@ -247,7 +271,7 @@ video {
         height: 27vh; width: 100%; padding: 0.5rem;
     }
     .fotos{
-        height: 27vh; width: 100%; padding: 0.5rem;
+        height: 26vh; width: 100%; padding: 0.5rem;
     }
     
     video {
@@ -268,6 +292,11 @@ video {
    .chibi-logo{
     height: 23vh; width: 100%; padding: 0.5rem;
    }
+
+   .ff-visor{
+    max-width: 100%;
+    height: 20vh;
+    }
 
 }
 
