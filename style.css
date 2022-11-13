@@ -30,6 +30,12 @@ display: flex;
 
 }
 
+.ingo-foto{
+    width: 20vh;
+    
+
+}
+
 .project-images{
     width: 40vh;
     padding: 1rem;
