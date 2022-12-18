@@ -223,6 +223,7 @@ margin-right: auto;
     100% {filter: saturate(100%);}
 }
 
+
 .download-cv-button{
     width: 11vw;
     height: 26vh;
@@ -242,12 +243,9 @@ margin-right: auto;
     100% { transform: rotate(0deg); }
   }
 
-.download-cv-button:hover {
-    -webkit-transform:scale(1.1);transform:scale(1.1);
-    
-    
+.mini-cont-1{
+ margin-top: 25px;
 }
-
 
 
 .img-responsive{
