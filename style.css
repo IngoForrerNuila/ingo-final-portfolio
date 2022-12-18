@@ -353,9 +353,13 @@ video {
     }
 
     .skill-images{
-        width: 13vh;
-        padding: 1rem;
+        width: 14vh;
+        padding: 1.0rem;
     
+    }
+
+    .skill-big-con{
+        padding: none;
     }
 
 
