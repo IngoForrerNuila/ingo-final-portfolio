@@ -30,6 +30,10 @@ display: flex;
 
 }
 
+.skill-images:hover{
+    transform: scale(0.95)
+}
+
 .ingo-foto{
     width: 20vh;
     
@@ -40,6 +44,12 @@ display: flex;
     width: 40vh;
     padding: 1rem;
  
+}
+
+.project-images:hover{
+    filter: grayscale(100%);
+    transform: rotate(2.5deg);
+   
 }
 
 .menu{
