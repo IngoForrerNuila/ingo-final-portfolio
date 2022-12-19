@@ -27,7 +27,11 @@ display: flex;
 .skill-images{
     width: 20vh;
     padding: 1rem;
-    filter: drop-shadow(20px 15px 4px #00000057);
+    filter: drop-shadow(20px 13px 4px #00000057);
+    animation-duration: 1s;
+    animation-name: leaves;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
 
 }
 
@@ -233,10 +237,11 @@ margin-right: auto;
 
 .chibi-logo{
     animation: tilt-shaking 0.15s infinite;
+    filter: drop-shadow(20px 13px 4px #00000057);
 }
 
 .chibi-logo:hover{
-    filter: grayscale(100%);
+    filter: grayscale(100%) drop-shadow(20px 13px 4px #00000057);
     transform: scale(100px);
     
 }
@@ -404,6 +409,15 @@ video {
         padding-top:0.0vh;
     }
 
+
+@keyframes leaves {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
 }
 
 
