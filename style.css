@@ -102,19 +102,18 @@ display: flex;
     margin: 3%;
 }
 
-.nav-box-button{
+.menu-button{
     background-color: #5a9cdf;
     color:white;
-    margin: 0.5rem;
+    /*margin: 0.5rem;
     width: auto;
     font-weight: bolder;
-    font-size: 150%;
+    font-size: 150%;*/
  
 }
 
-.nav-box-button:hover{
-    background-color: #ffffff;
-    color:#2e70b4;
+.menu-button:hover{
+    filter: grayscale(100%);
 
 }
 
