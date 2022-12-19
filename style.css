@@ -247,6 +247,12 @@ margin-right: auto;
     margin-right: 0.5rem;
 }
 
+.afiches{
+    filter: drop-shadow(20px 13px 4px #00000057);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
 
 .download-cv-button{
     width: 11vw;
@@ -281,18 +287,11 @@ margin-right: auto;
  margin-top: 60px;
 }
 
-
 .img-responsive{
     max-width: 100%;
     position: relative;
     
 }
-
-/*.project-image{
-
-    
-
-}*/
 
 video {
     /* override other styles to make responsive */
@@ -352,9 +351,11 @@ video {
     }
     
     .chibi-video-box {
-        width: 50%    !important;
-        height: auto   !important;
-        padding: 0.5rem;
+        width: 40%    !important;
+    height: auto   !important;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin: 0.7rem;
    }
 
    .concept-art{
@@ -423,20 +424,14 @@ video {
     }
 }
 
-.chibi-video-box {
-    width: 45%    !important;
-    height: auto   !important;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    margin: 0.3rem;
+.afiches{
+    filter: drop-shadow(20px 13px 4px #00000057);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    height: 25vh; width: 35vw;
+    
 }
 
 }
-
-
-/* .cont-projects{
-    height: 700px;
-} */
-
 
 
