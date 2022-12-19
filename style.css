@@ -27,6 +27,7 @@ display: flex;
 .skill-images{
     width: 20vh;
     padding: 1rem;
+    filter: drop-shadow(20px 15px 4px #00000057);
 
 }
 
@@ -43,12 +44,13 @@ display: flex;
 .project-images{
     width: 40vh;
     padding: 1rem;
+    filter: drop-shadow(20px 13px 4px #00000057);
  
 }
 
 .project-images:hover{
     filter: grayscale(100%);
-    transform: rotate(2.5deg);
+    transform: rotate(2.5deg) scale(0.95);
    
 }
 
@@ -230,23 +232,20 @@ margin-right: auto;
 }
 
 .chibi-logo{
-    animation-duration: 1s;
-    animation-name: intensitive;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation: tilt-shaking 0.15s infinite;
 }
 
-
-
-@keyframes intensitive {
-    0% {filter: saturate(0%);}
-    100% {filter: saturate(100%);}
+.chibi-logo:hover{
+    filter: grayscale(100%);
+    transform: scale(100px);
+    
 }
 
 
 .download-cv-button{
     width: 11vw;
     height: 26vh;
+    filter: drop-shadow(20px 13px 4px #00000057);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -256,9 +255,8 @@ margin-right: auto;
 }
 
 .download-cv-button:hover{
-    filter: grayscale(100%);
-    transform: scale(100px);
-    
+    filter: grayscale(100%) drop-shadow(20px 13px 4px #00000057) ;
+    transform: scale(0.95);
 }
 
 @keyframes tilt-shaking {
