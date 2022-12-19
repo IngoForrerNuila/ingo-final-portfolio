@@ -422,6 +422,15 @@ video {
         transform: scale(1.1);
     }
 }
+
+.chibi-video-box {
+    width: 45%    !important;
+    height: auto   !important;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin: 0.3rem;
+}
+
 }
 
 
