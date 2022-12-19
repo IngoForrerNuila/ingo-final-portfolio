@@ -130,6 +130,11 @@ display: flex;
 
 }
 
+.titles-container-0{
+    Background-color:#5a9cdf;
+
+}
+
 .titles-container{
     Background-color:#5a9cdf;
 
@@ -309,6 +314,10 @@ video {
 
    .menu-2{
     visibility: hidden;
+}
+
+.titles-container{
+    margin-bottom: 1rem;
 }
 
 
