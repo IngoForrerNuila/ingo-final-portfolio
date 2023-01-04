@@ -6,7 +6,7 @@ html{
 body {
     padding-top:8.9vh;
     padding-bottom: 100px;
-    background-color: #2e70b4;
+    
     
 }
 
@@ -16,12 +16,12 @@ padding: 0%;
 background-color: #2e70b4;
 width: 100%;
 justify-content: center;
-display: flex;
 
 }
 
 .responsive{
     max-width: 100%;
+    height: auto;
 }
 
 .skill-images{
@@ -59,19 +59,17 @@ display: flex;
 
 .menu{
     background-color:#135699d5
-    /*background-color:#5a9cdf ;*/
+    
 }
 
 .menu-2{
     background-color:#135699ca
-    /*background-color:#5a9cdf ;*/
+    
 }
 
 .menu-button {
     text-decoration: none;
-    /*width: 12vh;*/
     height: 6.5vh;
-    background-color: #e9e9e9;
     color: rgb(155, 155, 155);
     font-weight: bolder;
     font-family: Helvetica;
