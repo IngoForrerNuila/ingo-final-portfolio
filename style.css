@@ -260,7 +260,7 @@ margin-right: auto;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    animation: tilt-shaking 0.15s infinite;
+    /*animation: tilt-shaking 0.15s infinite;*/
     
 }
 
@@ -269,13 +269,13 @@ margin-right: auto;
     transform: scale(0.95);
 }
 
-@keyframes tilt-shaking {
+/*@keyframes tilt-shaking {
     0% { transform: rotate(0deg); }
     25% { transform: rotate(2deg); }
     50% { transform: rotate(0eg); }
     75% { transform: rotate(-2deg); }
     100% { transform: rotate(0deg); }
-  }
+  }*/
 
   .mini-cont-0{
     margin: 3.5vh;
